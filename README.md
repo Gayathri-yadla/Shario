@@ -1,35 +1,25 @@
-# Shario - Food Donation Bridge Platform
+# SHARIO - Food Sharing Platform
 
 ![Shario Banner](https://img.shields.io/badge/Status-Active-brightgreen) ![License](https://img.shields.io/badge/License-MIT-blue) ![Tech](https://img.shields.io/badge/Stack-MERN-purple)
 
-**Shario** is a full-stack web application designed to connect people who have surplus food with those who need it, aiming to effectively reduce food waste and support communities. 
-
-The platform provides a unified experience where anyone can be a donor or a receiver using a single, seamless account.
+Designed and developed a full-stack web application to facilitate food donation and sharing, reducing food waste through a user-friendly platform that connects donors and receivers in real-time. Implemented secure user authentication with JWT tokens and password hashing using bcrypt, enabling seamless registration and login processes for community engagement. Built RESTful APIs with Node.js and Express.js for backend operations, including food donation submissions, browsing available items, and claim management, while integrating MongoDB with Mongoose for efficient data storage and retrieval. Architected a responsive frontend using Vanilla JavaScript and Tailwind CSS, ensuring cross-device compatibility and dynamic user interfaces for donation forms, search functionalities, and profile management.
 
 ## 🌟 Key Features
 
 *   **Unified Account System:** A single registration/login system for all users. No separate donor/receiver accounts.
-*   **Secure Authentication:** JWT-based authentication with bcrypt password hashing and an OTP email verification flow (simulated).
+*   **Secure Authentication:** JWT-based authentication with bcrypt password hashing and an OTP email verification flow.
 *   **Smart Nearby Discovery:** Donations are automatically sorted by distance based on your browser's Geolocation API and backend geospatial indexing.
 *   **Interactive Maps:** Visual map interfaces using React Leaflet for pinning donation locations and discovering nearby food drops.
 *   **Donation Posting:** Donors can add food items with descriptions, quantities, expiry times, exact pickup coordinates, and images.
 *   **Request System:** Receivers can instantly request a food item, alerting the donor.
 
-## 💻 Tech Stack
+## 💻 Tools & Tech Stack
 
-**Frontend:**
-*   React.js (Vite)
-*   Tailwind CSS (Glassmorphism & Modern UI)
-*   React Router
-*   Axios for API communication
-*   React Leaflet for Interactive Maps
-
-**Backend:**
-*   Node.js & Express.js
-*   MongoDB & Mongoose (with Geospatial Indexes)
-*   JSON Web Tokens (JWT) for authentication
-*   Bcrypt.js for secure password hashing
-*   Nodemailer (Simulated for OTP)
+*   **Frontend:** Vanilla JavaScript, React.js (Vite), HTML5, Tailwind CSS
+*   **Backend:** Node.js, Express.js
+*   **Database:** MongoDB, Mongoose
+*   **Security & Utilities:** JWT, bcrypt, Multer
+*   **Deployment:** GitHub Pages, Render, Vercel
 
 ## 🚀 Getting Started Locally
 
